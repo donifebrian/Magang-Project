@@ -42,9 +42,9 @@
 
 <div class="sidebar-body">
     <ul class="nav metismenu" id="menu1">
-        <li class="nav-item nav-category">web apps</li>
+        <li class="nav-item nav-category">Modifikasi</li>
         <li class="nav-item" style="color: blueviolet">
-            <a class="nav-link" data-toggle="collapse" href="#emails" role="button" aria-expanded="false"
+            <a class="nav-link" aria-expanded="false"
                 aria-controls="emails">
                 <i class="link-icon" data-feather="mail"></i>
                 <span class="link-title">Email</span>
@@ -65,15 +65,38 @@
 
         </li>
 
-        {{-- metismenu --}}
+
+        <li class="nav-item nav-category">NobleUI</li>
         <li class="nav-item">
-            <a class="nav-link has-arrow" aria-controls="emails" role="button" href="#emails" aria-expanded="false">
+            <a class="nav-link" data-toggle="collapse" href="#emails" role="button"
+               aria-expanded="false" aria-controls="emails">
+                <i class="link-icon" data-feather="mail"></i>
+                <span class="link-title">Email</span>
+                <i class="link-arrow" data-feather="chevron-down"></i>
+            </a>
+            <div class="collapse" id="emails">
+                <ul class="nav sub-menu">
+                    <li class="nav-item">
+                        <a href="/email/inbox" class="nav-link">Inbox</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/email/read" class="nav-link">Read</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/email/compose" class="nav-link">Compose</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="nav-item nav-category">Metis Menu</li>
+        <li class="nav-item">
+            <a class="nav-link has-arrow"aria-expanded="false">
                 <i class="link-icon" data-feather="mail"></i>
                 <span class="link-title">Email</span>
             </a>
 
             <ul class="mm-collapse">
-
                 <li>
                     <a href="#" class="nav-link">menu </a>
                 </li>
@@ -83,7 +106,6 @@
                 <li>
                     <a href="#" class="nav-link">Compose</a>
                 </li>
-
             </ul>
         </li>
 

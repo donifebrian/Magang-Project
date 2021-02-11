@@ -15,24 +15,23 @@
     <link rel="stylesheet" href="{{ asset('assets/vendors/flag-icon-css/css/flag-icon.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/demo_1/style.css') }}">
     <link rel="shortcut icon" href="https://binamegah.com/wp-content/uploads/2020/09/cropped-favicon-logo-bmi1-180x180.png" />
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
 
     {{-- metismenu --}}
-    {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/metismenu/dist/metisMenu.min.css">
-    <link rel="stylesheet" href="{{ asset('assets/css/demo_1/costume.css') }}"> --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/metismenu/dist/metisMenu.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/demo_1/costume.css') }}">
 </head>
 
 <body>
 
     <div class="main-wrapper" id="app">
-        @include('components.sidebar.sidebar')
+        <navigation></navigation>
         <div class="page-wrapper">
-            @include('components.navbar.navbar')
+            <navbar></navbar>
             <div class="page-content">
                 <h1><a href="https://www.nobleui.com/laravel/template/light/">Click here for full Review</a></h1>
             </div>
-            
-            @include('components.footer')
+            <bawahan></bawahan>
         </div>
     </div>
 
@@ -44,13 +43,13 @@
     @yield('scripts')
 
     {{-- metismenu --}}
-    {{-- <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
     <script src="https://cdn.jsdelivr.net/npm/metismenu"></script>
     <script>
         $(function() {
             $('#menu1').metisMenu();
         });
-    </script> --}}
+    </script>
 
 </body>
 

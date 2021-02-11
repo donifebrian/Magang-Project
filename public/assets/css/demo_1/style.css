@@ -4,6 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @import url(https://fonts.googleapis.com/css?family=Nunito);
 :root {
   --blue: #5E50F9;
   --indigo: #6610f2;
@@ -13456,8 +13457,6 @@ address p {
           .sidebar .sidebar-body .nav .nav-item .nav-link .link-arrow {
             -webkit-transition: all .3s ease;
             transition: all .3s ease; }
-          .sidebar .sidebar-body .nav .nav-item .nav-link[aria-expanded="true"] {
-            color: #727cf5; }
             .sidebar .sidebar-body .nav .nav-item .nav-link[aria-expanded="true"] .link-arrow {
               -webkit-transform: rotate(90deg);
               transform: rotate(180deg); }
@@ -13471,13 +13470,6 @@ address p {
           height: 15px; }
           .sidebar .sidebar-body .nav .nav-item.nav-category:not(:first-child) {
             margin-top: 20px; }
-        .sidebar .sidebar-body .nav .nav-item:hover .nav-link {
-          color: #727cf5; }
-          .sidebar .sidebar-body .nav .nav-item:hover .nav-link .link-title {
-            margin-left: 31px; }
-          .sidebar .sidebar-body .nav .nav-item:hover .nav-link .link-icon {
-            color: #727cf5;
-            fill: rgba(239, 243, 255, 0.5); }
         .sidebar .sidebar-body .nav .nav-item.active .nav-link {
           color: #727cf5; }
           .sidebar .sidebar-body .nav .nav-item.active .nav-link::before {
@@ -13562,7 +13554,7 @@ address p {
   .sidebar-dark .sidebar .sidebar-body .nav .nav-item:hover .nav-link svg, .sidebar-dark .sidebar .sidebar-body .nav .nav-item.active .nav-link svg {
     fill: rgba(114, 124, 245, 0.2); }
   .sidebar-dark .sidebar .sidebar-body .nav .nav-item:hover .nav-link .link-title, .sidebar-dark .sidebar .sidebar-body .nav .nav-item.active .nav-link .link-title {
-    color: #727cf5; }
+    color: #AE5A2C; }
 
 .settings-sidebar {
   position: fixed;

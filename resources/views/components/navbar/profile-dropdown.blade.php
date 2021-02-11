@@ -1,16 +1,16 @@
 <li class="nav-item dropdown nav-profile">
-    <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button"
-       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <img src="{{ asset('assets/images/faces/face1.jpg') }}" alt="profile"/>
+    <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        <img src="{{ asset('assets/images/faces/face1.jpg') }}" alt="profile" />
     </a>
     <div class="dropdown-menu" aria-labelledby="profileDropdown">
         <div class="dropdown-header d-flex flex-column align-items-center">
             <div class="figure mb-3">
-                <img src="{{ asset('assets/images/faces/face1.jpg') }}" alt=""/>
+                <img src="{{ asset('assets/images/faces/face1.jpg') }}" alt="" />
             </div>
             <div class="info text-center">
                 <p class="name font-weight-bold mb-0">
-                   Fariq
+                    Fariq
                 </p>
                 <p class="email text-muted mb-3">
                     Email
@@ -39,12 +39,11 @@
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link"
-                       onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                        onclick="event.preventDefault();document.getElementById('logout-form').submit();">
                         <i data-feather="log-out"></i>
                         <span>{{ __('Logout') }}</span>
                     </a>
-                    <form id="logout-form" action="# method="POST"
-                          class="d-none">
+                    <form id="logout-form" action="# method=" POST" class="d-none">
                         @csrf
                     </form>
                 </li>
